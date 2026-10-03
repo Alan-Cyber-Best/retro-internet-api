@@ -2,5 +2,12 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "retro-internet-api",
   "main": "worker.js",
-  "compatibility_date": "2026-10-02"
+  "compatibility_date": "2026-10-02",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "retro-internet-index",
+      "database_id": "188b03ab-a4a5-4525-99ba-92a337cb6eed"
+    }
+  ]
 }
